@@ -9,6 +9,7 @@ module.exports = {
     "plugin:prettier/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:tailwindcss/recommended",
+    'plugin:prettier/recommended'
   ],
   parserOptions: { ecmaVersion: "latest", sourceType: "module" },
   settings: { react: { version: "18.2" } },
@@ -21,7 +22,7 @@ module.exports = {
   ],
   rules: {
     "react-refresh/only-export-components": "warn",
-    "prettier/prettier": ["error", {}, { usePrettierrc: true }],
+    "prettier/prettier": [{}, { usePrettierrc: true }],
     "react/react-in-jsx-scope": "off",
     "jsx-a11y/accessible-emoji": "off",
     "react/prop-types": "off",

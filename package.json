@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint:fix": "eslint ./src --ext .jsx,.js, --quiet --fix -f mo --ignore-path ./.gitignore",
+    "lint:fix": "eslint  --ext .jsx,.js, --quiet --fix -f mo --ignore-path ./.gitignore",
     "lint:format": "prettier  --loglevel warn --write \"./**/*.{js,jsx,css,md,json}\" ",
     "lint": "pnpm run lint:format && pnpm run lint:fix ",
     "preview": "vite preview"
@@ -20,6 +20,7 @@
     "react-apexcharts": "^1.4.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0",
+    "remixicon": "^3.2.0",
     "sort-by": "^1.2.0"
   },
   "devDependencies": {

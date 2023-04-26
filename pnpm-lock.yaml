@@ -30,6 +30,7 @@ specifiers:
   react-apexcharts: ^1.4.0
   react-dom: ^18.2.0
   react-router-dom: ^6.10.0
+  remixicon: ^3.2.0
   sort-by: ^1.2.0
   tailwindcss: ^3.3.2
   vite: ^4.3.2
@@ -43,6 +44,7 @@ dependencies:
   react-apexcharts: 1.4.0_vimzxmsr6jarszy4couak7ghra
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.10.0_biqbaboplfbrettd7655fr4n2y
+  remixicon: 3.2.0
   sort-by: 1.2.0
 
 devDependencies:
@@ -2823,6 +2825,10 @@ packages:
     resolution: {integrity: sha512-pq2bWo9mVD43nbts2wGv17XLiNLya+GklZ8kaDLV2Z08gDCsGpnKn9BFMepvWuHCbyVvY7J5o5+BVvoQbmlJLg==}
     engines: {node: '>=8'}
     dev: true
+
+  /remixicon/3.2.0:
+    resolution: {integrity: sha512-ADh4EQE4UGtm9GHqD+TIfVp1b0zeWso6efaMAnejdB6/7Z1W02Ka5K8khQaz+LNgIqC6dSZxCvXMWNalYWHiNQ==}
+    dev: false
 
   /remove-accents/0.4.2:
     resolution: {integrity: sha512-7pXIJqJOq5tFgG1A2Zxti3Ht8jJF337m4sowbuHsW30ZnkQFnDzy9qBNhgzX8ZLW4+UBcXiiR7SwR6pokHsxiA==}
