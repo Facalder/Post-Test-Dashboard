@@ -1,11 +1,11 @@
-import { useState } from 'react'
+import { useState } from "react";
 
 export default function SidebarLinkGroup({ children, activeCondition }) {
-  const [open, setOpen] = useState(activeCondition)
+  const [open, setOpen] = useState(activeCondition);
 
   const handleClick = () => {
-    setOpen(!open)
-  }
+    setOpen(!open);
+  };
 
-  return <li>{children(handleClick, open)}</li>
+  return <li>{children(handleClick, open)}</li>;
 }
